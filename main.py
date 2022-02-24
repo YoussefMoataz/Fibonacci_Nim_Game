@@ -84,8 +84,10 @@ def fibonacci_nim():
                         second = get_second_player_number(second)
                 available_choice = False
                 continue
+
             else:
                 continue
+
         # not first move case
         else:
             # check input validity
@@ -120,20 +122,19 @@ def fibonacci_nim():
                             break
 
                         available_choice = True
-                        
+
                     else:
                         second = get_second_player_number(second)
-
                 available_choice = False
 
                 continue
 
             else:
-
                 continue
 
 
 if __name__ == '__main__':
-
     # runs the game
     fibonacci_nim()
+
+# End of the file
